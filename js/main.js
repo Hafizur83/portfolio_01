@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    // jQuery preloader
+    $(window).on('load', function(){
+        $('#preloader').fadeOut(2000)
+    })
     //   Scroll To Top Script
     var topbtn = document.getElementById("topbtn");
      $('#topbtn').click(function(){

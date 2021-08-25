@@ -150,6 +150,17 @@ ol {
 /*-----------------
 :: HEADER SECTION
 -----------------*/
+#preloader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #e5eff1;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .sticky{
 	position: fixed;
 	padding: 25px 150px;
@@ -163,15 +174,10 @@ ol {
 	-webkit-transition: .5s ease;
 }
 .header_area {
-/*    padding: 0px 150px;*/
     background: rgba(4, 107, 31, 0.9);
 	position: fixed;
     z-index: 999999;
     width: 100%;
-}
-.navbar-light .navbar-brand{
-/*	width: auto;*/
-/*	height: 50px;*/
 }
 .nav-item li a{
 	margin-right: 45px;
